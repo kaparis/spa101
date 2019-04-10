@@ -19,8 +19,8 @@ class Choice(models.Model):
     choice_text = models.CharField('Choice Text', max_length=200)
     votes = models.IntegerField('Votes', default=0)
 
-    def does_not_exist(self):
-        return true
+    def DoesNotExist(self):
+        return True
 
     def __str__(self):
         return self.choice_text

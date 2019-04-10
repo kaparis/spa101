@@ -1,0 +1,9 @@
+li a {
+    color: green;
+    font-size: 15pt;
+}
+
+body {
+    background: white;
+    /*background: white url("images/tenor.gif") no-repeat;*/
+}
